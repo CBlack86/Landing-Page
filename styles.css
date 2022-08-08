@@ -1,6 +1,7 @@
 .container_one {
     background-color: #1F2937;
     color: #F9FAF8;
+   
 }
 
 .header_group {
@@ -15,6 +16,7 @@
 
 .header {
     font-size: 24px; 
+    margin-left: 48px;
 }
 
 .hero_header {
@@ -29,6 +31,8 @@
 
 .hero {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header_image {
@@ -40,7 +44,6 @@ button {
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
-    border: 0;
     margin: 8px;
     padding: 4px 16px;
 }
@@ -48,4 +51,37 @@ button {
 a {
     text-decoration: none;
     color: #E5E7EB;
+    margin-right: 48px;
+}
+
+.middle {
+    display: flex;
+}
+
+.mid-section-header {
+    display: flex;
+}
+
+.thumbnail {
+    max-width: 5%;
+    height: auto;
+    display: flex;
+}
+
+.bottom-area {
+    background-color: #3882F6;
+}
+
+.bottom-title {
+    display: flex;
+}
+
+.bottom-button {
+    border: 15px white;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
 }
